@@ -43,7 +43,7 @@ const Navbar = () => {
                 to="/home"
                 exact
                 
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                
               >
                 Home
@@ -52,7 +52,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/opstmt"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                 
               >
                 Opstmt
@@ -61,7 +61,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/asset"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                
               >
                 Asset & Liab
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/oca-ocl"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                
               >
                 OCA & OCL
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ratios"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                 
               >
                 Ratios
@@ -88,7 +88,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/wctlassmt"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                
               >
                 WC TL ASSMT
@@ -97,7 +97,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/ff"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                 
               >
                 FF
@@ -106,7 +106,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/kfi"
-                className="text-white  hover:text-gray-400"
+                className="text-gray-50  hover:text-gray-400 hover:no-underline "
                 
               >
                 KFI

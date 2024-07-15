@@ -17,6 +17,9 @@ import LoginPage from './pages/login/Login';
 
 
 import { AppProvider } from './AppContext';
+import Datavisual from './views/Datavisual';
+import Dashpage from './views/Dash';
+import Dashboard from './views/Dashboard';
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
         {/* <Navbar /> */}
         <AppProvider>
           <Routes>
-            {/* <Route path="/dashboard" element={<PrivateRoute component={Dashboard} exact />} /> */}
+            <Route path="/dashboard" element={<PrivateRoute component={Dashboard} exact />} />
           
             <Route path="/" element={<LoginPage/>} />
             <Route path="/home" element={<Home/>} exact />
@@ -36,6 +39,8 @@ function App() {
             <Route path="/wctlassmt" element={<Wctl />} exact />
             <Route path="/ff" element={<Ff />} exact />
             <Route path="/kfi" element={<Kfi />} exact />
+            <Route path="/Dash" element={<Dashpage />} exact />
+            <Route path="/Datavisual" element={<Datavisual />} exact />
             
 
           </Routes>

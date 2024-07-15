@@ -1,0 +1,12 @@
+.graph-container {
+    display: flex;        /* Use flexbox to align graphs */
+    justify-content: space-around; /* Space between the graphs */
+    
+}
+
+.plotly-graph {
+    width: 45%;           /* Adjust width as needed */
+}
+.plotly-graph1 {
+    width: 95%;           /* Adjust width as needed */
+}

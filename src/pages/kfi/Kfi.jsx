@@ -29,7 +29,7 @@ function Kfi() {
     setIsPopupVisible(true);
     setTimeout(() => {
       setIsPopupVisible(false);
-      navigate('/visual1'); // Redirect to /visual1 after 3 seconds
+      navigate('/Datavisual'); 
     }, 3000);
   };
 
