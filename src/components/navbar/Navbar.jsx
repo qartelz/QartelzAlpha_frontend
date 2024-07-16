@@ -14,7 +14,13 @@ import { useRef } from "react";
 
 
 
+
+
+
 const Navbar = () => {
+;
+
+  
 
   const menuRef = useRef();
 
@@ -128,12 +134,12 @@ const Navbar = () => {
           Contact
         </NavLink>
         
-        <NavLink
-          to="/signout"
-          className="bg-white  text-black font-bold hover:bg-gray-300 px-10 py-2 rounded-2xl"
-        >
-          Sign Out
-        </NavLink>
+        <button
+      onClick={logoutUser}
+      className="bg-white text-black font-bold hover:bg-gray-300 px-10 py-2 rounded-2xl"
+    >
+      Sign Out
+    </button>
       
         </div>
         </>

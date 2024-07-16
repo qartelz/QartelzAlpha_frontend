@@ -53,7 +53,7 @@ const LoginPage = () => {
 
           <div className="mb-4">
             <label className="block text-gray-300 text-sm font-bold mb-2" htmlFor="form2Example27">
-            form2Example27
+            Password
             </label>
             <div className="flex items-center bg-gray-700 rounded-lg">
               <FontAwesomeIcon icon={faLock} className="text-gray-400 ml-3" />
