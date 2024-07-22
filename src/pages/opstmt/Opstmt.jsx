@@ -1235,7 +1235,7 @@ function Opstmt() {
           <div className="container mx-auto mt-2 mb-2  px-10">
             <div className="grid   border-solid border-2 border-black  grid-cols-12 ">
               <div className="col-span-4  flex items-center  justify-center p-4">
-                <h2 className="text-lg font-bold">Finishing Goods</h2>
+                <h2 className="text-lg font-bold">Finished Goods</h2>
               </div>
 
               <div className="col-span-8 flex justify-center items-center bg-gray-100 px-4">
